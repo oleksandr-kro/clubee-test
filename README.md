@@ -27,7 +27,7 @@ All additional styles were added using the modular style system **style.module.c
 In order to successfully run the project on your machine, you need to run the front end and api separately
 
 Firstly go to the **clubee-api** directory and enter to the command line
-####`yarn install` 
+#### `yarn install` 
 
 Then run the project using 
 #### `yarn start` 
