@@ -1,0 +1,41 @@
+.article_block {
+  width: 40%;
+  display: flex;
+}
+
+.article_block:nth-child(even) {
+  justify-content: flex-start;
+}
+
+.article_block:nth-child(odd) {
+  justify-content: flex-end;
+}
+
+.article {
+  position: relative;
+  width: 500px;
+  border: 1px solid grey;
+  border-radius: 7px;
+  padding: 13px;
+  margin: 10px;
+}
+
+.title {
+  margin: 0;
+
+  padding-bottom: 10px;
+  border-bottom: 1px solid grey;
+}
+
+.date {
+  position: absolute;
+  right: 15px;
+  top: 20px;
+  color: grey;
+  font-size: 13px;
+}
+
+.description {
+  margin: 0;
+  margin-top: 10px;
+}
